@@ -275,7 +275,7 @@
         return $children.eq(Math.floor(Math.random() * $children.length));
     };
     function newPeer(id, option) {
-        var _option = option || {host: 'kanade.devunt.kr', port: 1234};
+        var _option = option || {};
         if (id === undefined)
             return new Peer(_option);
         else
